@@ -57,8 +57,8 @@ mask = torch.sigmoid(outputs.logits).squeeze().numpy()
 - **Datasets**: 
   - Taping areas: 250 validation samples
   - Cracks: 201 validation samples
-- **Training time**: ~25 minutes on Colab T4 GPU
-- **Inference**: ~50ms per image
+- **Training time**: ~138 minutes on Colab T4 GPU
+- **Inference**: ~50-100ms per image
 - **Hyperparameters**: Batch size 8, LR 1e-4, 15 epochs
 - **Seed**: 42
 
