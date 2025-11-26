@@ -27,9 +27,6 @@ Fine-tuned CLIPSeg model to segment drywall defects based on natural language pr
 ```
 ├── 10x_assignment.ipynb          # Training notebook
 ├── 10x_assignment_Report.pdf     # Detailed report
-├── model_checkpoints/
-│   ├── best.pt                   # Best model weights
-│   └── last.pt                   # Final epoch weights
 ├── predictions/                  # Validation predictions (PNG format)
 ├── images/                       # Sample visualizations
 └── README.md
