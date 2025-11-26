@@ -53,7 +53,7 @@ mask = torch.sigmoid(outputs.logits).squeeze().numpy()
 
 ## Training Details
 
-- **Model**: CLIPSeg (CIDAS/clipseg-rd64-refined, ~90M parameters)
+- **Model**: CLIPSeg (CIDAS/clipseg-rd64-refined, ~150M parameters)
 - **Datasets**: 
   - Taping areas: 250 validation samples
   - Cracks: 201 validation samples
